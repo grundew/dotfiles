@@ -16,3 +16,5 @@ set tabstop=4
 
 let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 
+let g:airline#extensions#tabline#enabled = 1
+
