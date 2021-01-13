@@ -8,3 +8,6 @@ mkdir -p $plugindir
 ln -s ~/dotfiles/vimrc ~/.vim/vimrc
 
 for file in ~/dotfiles/*/ ; do ln -s $file $plugindir ; done
+
+
+# Conky
