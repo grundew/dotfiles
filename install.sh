@@ -1,15 +1,17 @@
 #! /usr/bin/zsh
 
-plugindir=~/.vim/pack/bundle/start
+vimplugindir=~/.vim/pack/bundle/start
 
 git clone --recurse-submodules -j8 git@github.com:grundew/dotfiles.git ~/dotfiles
 
-mkdir -p $plugindir
+mkdir -p $vimplugindir
 ln -s ~/dotfiles/vimrc ~/.vim/vimrc
 
-for file in ~/dotfiles/*/ ; do ln -s $file $plugindir ; done
+for file in ~/dotfiles/vimplugins/*/ ; do ln -s $file $plugindir ; done
 
 # tmux conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+
+
 
 # Conky
