@@ -10,3 +10,6 @@
 [submodule "vimplugins/rainbow"]
 	path = vimplugins/rainbow
 	url = https://github.com/luochen1990/rainbow.git
+[submodule "tmuxplugins/tpm"]
+	path = tmuxplugins/tpm
+	url = https://github.com/tmux-plugins/tpm
