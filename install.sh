@@ -9,5 +9,7 @@ ln -s ~/dotfiles/vimrc ~/.vim/vimrc
 
 for file in ~/dotfiles/*/ ; do ln -s $file $plugindir ; done
 
+# tmux conf
+ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 
 # Conky
