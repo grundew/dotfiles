@@ -1,0 +1,12 @@
+[submodule "vimplugins/vim-fugitive"]
+	path = vimplugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vimplugins/vim-surround"]
+	path = vimplugins/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vimplugins/vim-airline"]
+	path = vimplugins/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vimplugins/rainbow"]
+	path = vimplugins/rainbow
+	url = https://github.com/luochen1990/rainbow.git
