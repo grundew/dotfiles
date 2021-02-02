@@ -13,3 +13,9 @@
 [submodule "tmuxplugins/tpm"]
 	path = tmuxplugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "vimplugins/nerdtree"]
+	path = vimplugins/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "vim-devicons"]
+	path = vim-devicons
+	url = git@github.com:ryanoasis/vim-devicons.git
