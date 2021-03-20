@@ -14,3 +14,9 @@ mkdir -p $tmuxplugindir
 for file in ~/dotfiles/tmuxplugins/*/ ; do ln -s $file $tmuxplugindir ; done
 
 # Conky
+mkdir .config/conky
+ls -s ~/dotfiles/conky.conf ~/.config/conky
+
+# imwheel
+ln -s ~/dotfiles/imwheelrc ~/.imwheelrc
+
